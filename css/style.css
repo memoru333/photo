@@ -97,11 +97,11 @@ a {
 
 .list li {
   margin: 0;
-  padding: 0 0 20px 0;
+  padding: 0 0 20p;
 }
 
 .list li img{
-  width: calc(100% - 10px);
+  width: 100%;
   margin: 0 auto;
 }
 
