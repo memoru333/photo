@@ -97,13 +97,13 @@ a {
 }
 
 .list li {
-  width: 50%;
+  flex: 1;
   margin: 0;
   padding: 0 0 20px 0;
 }
 
 .list li img{
-  width: 100vw;
+  width: calc(100% - 10px);
   margin: 0 auto;
 }
 
