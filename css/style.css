@@ -5,6 +5,7 @@ html {
 }
 
 body {
+  font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
   color: #333;
   font-size: 0.8em;
 }
@@ -89,7 +90,7 @@ a {
 /*-----------------------*/
 .list {
   max-width: 700px;
-  margin: 0 auto;
+  margin: 0 auto 16px
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -124,15 +125,40 @@ a {
 }
 
 .flex dt {
-font-weight: bold;
+  font-weight: bold;
+  margin: 0;
 }
 
-/*-----------------------
-ヘッダー
-/*-----------------------*/
+.text {
+
+}
+
+.text p {
+  margin: 0;
+  padding: 0;
+}
+
 
 /*-----------------------
-ヘッダー
+フッター
+/*-----------------------*/
+
+#footer {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+#footer p {
+  font-size: 16px;
+}
+  
+
+
+
+
+
+/*-----------------------
+
 /*-----------------------*/
 
 /*-----------------------
