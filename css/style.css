@@ -98,9 +98,10 @@ a {
 
 .list li {
   width: calc(100% / 2);
-  margin: 0;
 }
 
+.list li img {
+  width: 100%;
 
 /*-----------------------
   デタイル
