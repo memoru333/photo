@@ -93,11 +93,11 @@ a {
   margin: 0 auto 16px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .list li {
-  width: calc(100% / 2 - 10px);
+  width: calc(100% / 2);
   margin: 0;
 }
 
@@ -141,6 +141,7 @@ a {
 
 .text-height {
   height: auto;
+}
 
 .text p {
   margin: 0;
