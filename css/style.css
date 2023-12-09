@@ -23,17 +23,18 @@ a {
 }
 
 #container {
-  max-width: 1300px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .inner {
-  max-width: 700px;
+  max-width: 800px;
   margin: 50px auto;
   background: #aaa;
 }
 
 .section-title {
-  font-size: 16px;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -42,11 +43,20 @@ a {
 -------------------------*/
 
 #header {
-  max-width: 900px;
-  margin: 50px auto 0;
+  margin-top: 50px;
 }
 
+/*
+h1タグ
+line-height にh1タグの高さよりも小さい値「1px」を指定することで、
+h1タグの上下の余白が消えるため、ロゴ画像の高さと揃う
+「line-height: 0;」を指定してもOKです
+*/
+
+
 .site-title  {
+  width: 180px
+  line-height: 1px;
   margin: 0;
 }
 
