@@ -93,7 +93,7 @@ a {
   margin: 0 auto 16px
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .list li {
@@ -130,8 +130,12 @@ a {
 }
 
 .text {
-
+  display: flex;
+  flex-direction: column;
 }
+
+.text-height {
+  height: auto;
 
 .text p {
   margin: 0;
