@@ -93,13 +93,13 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-contents: center;
+  gap: 20px;
 }
 
 .list li {
   width: 50%;
   margin: 0;
-  gap: 10px;
-  padding-bottom: 20px;
+  padding: 0 0 20px 0;
 }
 
 .list li img{
