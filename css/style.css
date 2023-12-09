@@ -30,7 +30,6 @@ a {
 .inner {
   max-width: 800px;
   margin: 50px auto;
-  background: #aaa;
 }
 
 .section-title {
@@ -68,7 +67,6 @@ h1タグの上下の余白が消えるため、ロゴ画像の高さと揃う
 メインビジュアル
 /*-----------------------*/
 #mainvisual {
-  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -77,11 +75,11 @@ h1タグの上下の余白が消えるため、ロゴ画像の高さと揃う
 /*-----------------------*/
 
 #index {
+  background: #aaa;
   padding: 30px 0;
 }
 
 .index-inner {
-  width: 600px;
   margin: 30px auto 0;
   border: 1px black solid;
 }
@@ -166,8 +164,7 @@ h1タグの上下の余白が消えるため、ロゴ画像の高さと揃う
 /*-----------------------*/
 
 #footer {
-  max-width: 700px;
-  margin: 200px auto 10px;
+  margin: 80px auto 10px;
 }
 
 #footer p {
