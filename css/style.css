@@ -84,8 +84,13 @@ h1タグの上下の余白が消えるため、ロゴ画像の高さと揃う
   border: 1px black solid;
 }
 
+/*
+「display: table;」と「margin: 0 auto;」で中央に配置。
+※この方法を使うとテキストの長さに応じて可変で中央配置できる
+*/
+
 .index-list {
-  width: 400px;
+  display: table;
   margin: 20px auto;
 }
 
@@ -97,8 +102,6 @@ h1タグの上下の余白が消えるため、ロゴ画像の高さと揃う
   画像エリア
 /*-----------------------*/
 .list {
-  max-width: 700px;
-  margin: 0 auto 16px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
