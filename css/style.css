@@ -89,7 +89,7 @@ a {
   画像エリア
 /*-----------------------*/
 .list {
-  max-width: 100%;
+  max-width: 700px;
   margin: 0 auto 16px;
   display: flex;
   flex-wrap: wrap;
@@ -97,7 +97,7 @@ a {
 }
 
 .list li {
-  width: 48%;
+  max-width: 50%;
 }
   
 /*-----------------------
@@ -118,7 +118,7 @@ a {
   gap: 20px;
 }
 
-.flex dl {
+.flex dl:after {
   border-right: 1px solid black;
 }
 
@@ -153,11 +153,11 @@ a {
 
 #footer {
   max-width: 700px;
-  margin: 0 auto;
+  margin: 70px auto 10px;
 }
 
 #footer p {
-  font-size: 16px;
+  font-size: 8px;
   text-align: center;
 }
   
