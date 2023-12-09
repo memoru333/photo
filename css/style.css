@@ -54,13 +54,9 @@ h1タグの上下の余白が消えるため、ロゴ画像の高さと揃う
 
 
 .site-title  {
-  width: 180px
+  width: 180px;
   line-height: 1px;
   margin: 0;
-}
-
-.site-title img {
-  width: 200px;
 }
 
 /*-----------------------
@@ -108,7 +104,7 @@ h1タグの上下の余白が消えるため、ロゴ画像の高さと揃う
 }
 
 .list li {
-  max-width: 50%;
+  max-width: 48%;
 }
   
 /*-----------------------
