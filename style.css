@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+html {
+  font-size: 100%;
+}
+
+body {
+  color: #333;
+  font-size: 0.8em;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #333;
+}
+
+#container {
+  max-width: 1300px;
+}
+
+.inner {
+  max-width: 700px;
+  margin: 50px auto;
+  background: #aaa;
+}
+
+.section-title {
+  font-size: 16px;
+  text-align: center;
+}
+
+/*-----------------------
+ヘッダー
+-------------------------*/
+
+#header {
+  max-width: 900px;
+  margin: 50px auto 0;
+}
+
+.site-title  {
+  margin: 0;
+}
+
+.site-title img {
+  width: 200px;
+}
+
+/*-----------------------
+メインビジュアル
+/*-----------------------*/
+#mainvisual {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/*-----------------------
+  インデックス
+/*-----------------------*/
+
+#index {
+  padding: 30px 0;
+}
+
+.index-inner {
+  width: 600px;
+  margin: 30px auto 0;
+  border: 1px black solid;
+}
+
+.index-list {
+  width: 400px;
+  margin: 20px auto;
+}
+
+.index-list li {
+  margin-bottom: 16px;
+}
+
+/*-----------------------
+  画像エリア
+/*-----------------------*/
+.list {
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list li {
+  width: 50%;
+  margin: 0;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+
+.list li img{
+  width: 330px;
+  margin: 0 auto;
+}
+
+
+/*-----------------------
+  デタイル
+/*-----------------------*/
+
+#detail {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 0;
+  background: #aaa;
+}
+
+.flex {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.flex dl {
+  border-right: 1px solid black;
+}
+
+.flex dt {
+font-weight: bold;
+}
+
+/*-----------------------
+ヘッダー
+/*-----------------------*/
+
+/*-----------------------
+ヘッダー
+/*-----------------------*/
+
+/*-----------------------
+ヘッダー
+/*-----------------------*/
+
+/*-----------------------
+ヘッダー
+/*-----------------------*/
+
+/*-----------------------
+ヘッダー
+/*-----------------------*/
+
+/*-----------------------
+ヘッダー
+/*-----------------------*/
