@@ -22,7 +22,7 @@ a {
   color: #333;
 }
 
-#container {
+.container {
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -104,7 +104,7 @@ h1タグの上下の余白が消えるため、ロゴ画像の高さと揃う
 }
 
 .list li {
-  max-width: 48%;
+  width: 48%;
 }
   
 /*-----------------------
