@@ -93,11 +93,9 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-contents: center;
-  gap: 20px;
 }
 
 .list li {
-  flex: 1;
   margin: 0;
   padding: 0 0 20px 0;
 }
