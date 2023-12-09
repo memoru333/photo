@@ -93,7 +93,7 @@ a {
   margin: 0 auto 16px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .list li {
